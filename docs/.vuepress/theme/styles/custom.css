@@ -1,0 +1,32 @@
+/* 全局暗色模式文字亮度增强 */
+html.dark {
+  --vp-c-text-1: #ffffff !important;
+  --vp-c-text-2: #ffffff !important;
+  --vp-c-text-3: #f5f5f5 !important;
+  --vp-nav-logo-color: #ffffff;
+}
+
+/* 首页 Hero 区域极致高亮：解决白色文字在动态 3D 背景下的辨识度问题 */
+.vp-home-hero .tagline,
+.vp-home-hero .description,
+.vp-home-hero .text,
+.vp-home-hero p {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9), 0 0 5px rgba(0, 0, 0, 0.5) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 针对标题下方的描述文字特调 */
+.vp-home-hero .description, 
+.vp-home-hero .text {
+  font-size: 1.2rem !important;
+  line-height: 1.6 !important;
+}
+
+/* 导航与页脚同步提亮 */
+.vp-nav-link, .vp-footer {
+  color: #ffffff !important;
+  opacity: 0.9 !important;
+}
