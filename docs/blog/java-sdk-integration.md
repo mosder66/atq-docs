@@ -1,14 +1,12 @@
 ---
 title: Java 对接 ATQ 云验证：从零实现安全加固的卡密登录
-date: 2026-02-20T00:00:00.000Z
+date: 2026-02-20
 author: ATQ Team
 tags:
   - Java
   - SDK
   - 安全加密
   - 接口对接
-createTime: 2026/02/20 00:38:42
-permalink: /blog/aunjuwbz/
 ---
 
 # Java 对接 ATQ 云验证：从零实现安全加固的卡密登录
